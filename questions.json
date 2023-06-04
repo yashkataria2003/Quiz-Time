@@ -57,10 +57,10 @@
     },
     {
         "question": "What is not the use of “this” keyword in Java?",
-        "choice1": "Referring to the instance variable when a local variable has the same name",
+        "choice1": "Calling another constructor in constructor chaining",
         "choice2": "Passing itself to the method of the same class",
         "choice3": "Passing itself to another method",
-        "choice4": "Calling another constructor in constructor chaining",
+        "choice4": "All of the above",
         "answer": 2
     },
     {
