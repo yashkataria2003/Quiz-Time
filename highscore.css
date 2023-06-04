@@ -1,0 +1,43 @@
+.hudPrefix
+{
+    font-size: 3rem;
+}
+
+.highScoreList {
+    list-style: none;
+    margin: 3rem 0rem;
+    border: .5rem solid rgb(191, 32, 219);
+    background-color: rgb(191 163 197);
+    border-radius: 1rem;
+    padding: 1rem 0rem;
+}
+
+.highScoreList:hover {
+    scale: 1.05;
+    background-color: rgb(191, 32, 219);
+    border: .5rem solid rgb(191 163 197);
+}
+
+.highScoreItems {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.highScoreItems:hover {
+    color: white;
+}
+
+@media screen and (max-width: 574px) {
+    h2
+    {
+        font-size: 4rem;
+    }
+
+    .container a
+    {
+        width: 30vw;
+    }
+}

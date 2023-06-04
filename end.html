@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="game.css">
+    <link rel="icon" href="quiz_logo.png" type="image/icon type" id="iconimage">
+    <title>Quiz - Result</title>
+</head>
+<body>
+    <div class="container">
+        <div class="hudItems">
+            <p class="hudPrefix">Score</p>
+            <h1 class="hudMainText" id="score">0</h1>
+        </div>
+        <form>
+            <input type="text" id="userName" placeholder="Enter User Name">
+            <button type="submit" id="saveButton" onclick="saveHighScore(event)" disabled>Save</button>
+        </form>
+        <a href="index.html">Play Again</a>
+        <a href="highscore.html">Your Score</a>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>

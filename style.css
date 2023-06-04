@@ -1,0 +1,148 @@
+:root {
+    background-color: rgb(186 169 195);
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 6rem;
+    color: rgb(163 79 178);
+    padding: 0rem 2rem;
+}
+
+.container {
+    display: flex;
+    height: 98vh;
+    width: 98vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container a {
+    display: flex;
+    background-color: rgb(191 163 197);
+    height: 8vh;
+    width: 20vw;
+    margin: 1rem 0rem;
+    border: .5rem solid rgb(163 79 178);
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.container a:hover {
+    cursor: pointer;
+    scale: 1.05;
+    background-color: rgb(163 79 178);
+    border: .5rem solid rgb(222 163 235);
+    color: white;
+    border-radius: 1rem;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#userName {
+    background-color: rgb(191 163 197);
+    height: 8vh;
+    width: 20vw;
+    margin: 1rem 0rem;
+    border: .5rem solid rgb(163 79 178);
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#userName:hover {
+    cursor: pointer;
+    scale: 1.05;
+    background-color: rgb(163 79 178);
+    border: .5rem solid rgb(191 163 197);
+    color: white;
+    border-radius: 1rem;
+}
+
+#saveButton {
+    background-color: rgb(191 163 197);
+    height: 8vh;
+    width: 20vw;
+    margin: 1rem 0rem;
+    border: .5rem solid rgb(163 79 178);
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    /* cursor: not-allowed; */
+}
+
+#saveButton:hover {
+    cursor: pointer;
+    scale: 1.05;
+    background-color: rgb(163 79 178);
+    border: .5rem solid rgb(191 163 197);
+    color: white;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 574px) {
+    h2 {
+        font-size: 4rem;
+    }
+
+    .container a {
+        width: 30vw;
+    }
+
+    #userName {
+        background-color: rgb(222 163 235);
+        height: 8vh;
+        width: 30vw;
+        margin: 1rem 0rem;
+        border: .5rem solid rgb(163 79 178);
+        border-radius: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #userName:hover {
+        cursor: pointer;
+        scale: 1.05;
+        background-color: rgb(163 79 178);
+        border: .5rem solid rgb(222 163 235);
+        color: white;
+        border-radius: 1rem;
+    }
+
+    #saveButton {
+        background-color: rgb(222 163 235);
+        height: 8vh;
+        width: 30vw;
+        margin: 1rem 0rem;
+        border: .5rem solid rgb(163 79 178);
+        border-radius: 1rem;
+        text-align: center;
+        font-size: 2rem;
+        /* cursor: not-allowed; */
+    }
+
+    #saveButton:hover {
+        cursor: pointer;
+        scale: 1.05;
+        background-color: rgb(163 79 178);
+        border: .5rem solid rgb(222 163 235);
+        color: white;
+        border-radius: 1rem;
+    }
+}

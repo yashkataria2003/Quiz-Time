@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Who invented Java Programming?",
+        "choice1": "Guido van Rossum",
+        "choice2": "James Gosling",
+        "choice3": "Dennis Ritchie",
+        "choice4": "Bjarne Stroustrup",
+        "answer": 2
+    },
+    {
+        "question": "Which component is used to compile, debug and execute the java programs?",
+        "choice1": "JRE",
+        "choice2": "JIT",
+        "choice3": "JDK",
+        "choice4": "JVM",
+        "answer": 3
+    },
+    {
+        "question": "Which one of the following is not a Java feature?",
+        "choice1": "Object-oriented",
+        "choice2": "Use of pointers",
+        "choice3": "Portable",
+        "choice4": "Dynamic and Extensible",
+        "answer": 2
+    },
+    {
+        "question": "Which of these cannot be used for a variable name in Java?",
+        "choice1": "identifier & keyword",
+        "choice2": "identifier",
+        "choice3": "keywords",
+        "choice4": "none of the mentioned",
+        "answer": 3
+    },
+    {
+        "question": "What is the extension of java code files?",
+        "choice1": ".js",
+        "choice2": ".txt",
+        "choice3": ".class",
+        "choice4": ".java",
+        "answer": 4
+    },
+    {
+        "question": "Which environment variable is used to set the java path?",
+        "choice1": "MAVEN_Path",
+        "choice2": "JavaPATH",
+        "choice3": "JAVA",
+        "choice4": "JAVA_HOME",
+        "answer": 4
+    },
+    {
+        "question": "Which of the following is not an OOPS concept in Java?",
+        "choice1": "Polymorphism",
+        "choice2": "Inheritance",
+        "choice3": "Compilation",
+        "choice4": "Encapsulation",
+        "answer": 3
+    },
+    {
+        "question": "What is not the use of “this” keyword in Java?",
+        "choice1": "Referring to the instance variable when a local variable has the same name",
+        "choice2": "Passing itself to the method of the same class",
+        "choice3": "Passing itself to another method",
+        "choice4": "Calling another constructor in constructor chaining",
+        "answer": 2
+    },
+    {
+        "question": "Which of the following is a type of polymorphism in Java Programming",
+        "choice1": "Multiple polymorphism",
+        "choice2": "Compile time polymorphism",
+        "choice3": "Multilevel polymorphism",
+        "choice4": "Execution time polymorphism",
+        "answer": 2
+    },
+    {
+        "question": "What is Truncation in Java?",
+        "choice1": "Floating-point value assigned to a Floating type",
+        "choice2": "Floating-point value assigned to an integer type",
+        "choice3": "Integer value assigned to floating type",
+        "choice4": "Integer value assigned to double type",
+        "answer": 2
+    }
+]
